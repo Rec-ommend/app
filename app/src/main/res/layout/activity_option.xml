@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".option">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="270px"
+        android:layout_height="200px"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/h0" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="270px"
+        android:layout_height="200px"
+        android:layout_marginEnd="540px"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/m0" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="270px"
+        android:layout_height="200px"
+        android:layout_marginEnd="270px"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/t0" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="270px"
+        android:layout_height="200px"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/o1" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="1000px"
+        android:layout_height="400px"
+        android:layout_marginEnd="12dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031"
+        app:srcCompat="@drawable/notice" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="1000px"
+        android:layout_height="400px"
+        android:layout_marginEnd="12dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333"
+        app:srcCompat="@drawable/f1" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="1000px"
+        android:layout_height="400px"
+        android:layout_marginEnd="12dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636"
+        app:srcCompat="@drawable/version" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="1000px"
+        android:layout_height="400px"
+        android:layout_marginEnd="12dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        app:srcCompat="@drawable/helpus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
