@@ -20,7 +20,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class tsearch0 extends AppCompatActivity {
-    final private static String RECORDED_FILE = "/sdcard/recorded.mp4";
+    final private static String RECORDED_FILE = "/sdcard/recorded.mp3";
 
     MediaPlayer player;
     MediaRecorder recorder;

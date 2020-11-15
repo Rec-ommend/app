@@ -17,13 +17,15 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.File;
 import java.io.IOException;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
 public class msearch0 extends AppCompatActivity {
 
-    final private static String RECORDED_FILE = "/sdcard/recorded.mp4";
+    final private static String RECORDED_FILE = "/sdcard/recorded.mp3";
 
     MediaPlayer player;
     MediaRecorder recorder;

@@ -36,6 +36,7 @@ public class msearchr extends AppCompatActivity {
         ImageButton ibutton10 = (ImageButton) findViewById(R.id.imageButton10);
         ImageButton ibutton17= (ImageButton) findViewById(R.id.imageButton17);
         ImageButton ibutton12= (ImageButton) findViewById(R.id.imageButton12);
+        ImageButton ibutton18= (ImageButton) findViewById(R.id.imageButton18);
         final ImageView imageView3=(ImageView) findViewById(R.id.imageView3);
         final ImageView imageView7=(ImageView) findViewById(R.id.imageView7);
         final ImageView imageView8=(ImageView) findViewById(R.id.imageView8);
@@ -150,6 +151,18 @@ public class msearchr extends AppCompatActivity {
                     player = null;
                 }
                 Intent intent = new Intent(msearchr.this, moreinfo.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+            }
+        });
+        ibutton18.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if (player != null) {
+                    player.stop();
+                    player.release();
+                    player = null;
+                }
+                Intent intent = new Intent(msearchr.this, msearchcolor.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.fadein, R.anim.fadeout);
             }
